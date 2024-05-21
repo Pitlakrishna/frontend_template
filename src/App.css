@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 65px;
+  height: 65px;
+  background-color: white;
+  mix-blend-mode: multiply
+}
+
+.imagesLogocmp {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.imagesLogocmp img {
+  width: 92px;
+  height: 36px;
+}
+
+.boxesIdeas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.boxesIdeas div {
+  padding: 20px;
+  width: 30%;
+}
+
+.boxesIdeas div h4 {
+  font-weight: bolder;
+  font-size: 19px;
+}
+
+.boxesIdeas div p {
+  font-size: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  font-size: 13px;
+  text-align: start;
+  margin: 10px;
+}
+
+.nav-item {
+  font-size: 15px !important;
+}
+
+@media screen and (max-width :768px) {
+
+  .heading {
+    font-size: 40px;
+    margin: 10px 0;
+  }
+
+  .buttons {
+    width: 90vw;
+    margin: 10px 3px;
+  }
+
+  .boxesIdeas div {
+    width: 100%;
+    padding: 20px;
+  }
+}
